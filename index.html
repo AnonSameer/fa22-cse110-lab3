@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting Notes">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Sameer Jain">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <main>
+        <header>
+            <h1><i>Minutes Tracker </i></h1>
+        </header>
+
+        <nav>
+            <a href="#">Meeting 1</a>
+            <a href="#">Meeting 2</a>
+            <a href="#">Meeting 3</a>
+            <a href="#">Meeting 4</a>
+            <hr>
+
+        </nav>
+        <title>Meeting Minutes Tracker:</title>
+        <link rel="icon" href="images/videoconference.png">
+        <section>
+            <h2><em>Team 17's First Brainstorm</em></h2>
+            <h2>10/8/2022</h2>
+            <h3>Attendance List:</h3>
+            <li>Sameer Jain</li>
+            <li>Aiden Jee</li>
+            <li>Alex Wang</li>
+            <li>Alvin Low</li>
+            <li>Katherine Wong</li>
+            <li>Raon Choi</li>
+            <li>Yiyang Chen</li>
+            <li>Yuheng Ge</li>
+</head>
+
+<body>
+
+    <span>
+        <div>
+            <h3>Meeting Agenda:</h3>
+            <ol>
+                <li>Brainstorm new features for app</li>
+                <li>Address buisness needs</li>
+
+            </ol>
+        </div>
+        <h3>Continue from last meeting: </h3>
+        <ul>
+            <li>Discuss fixing bug in ticket <strong>#882</strong></li>
+        </ul>
+        <h3>New business:</h3>
+        <p>Discuss plan to launch by <b>Q2</b>.</p>
+        </section>
+    </span>
+</body>
+
+<h3>Noes from Meeting:</h3>
+<img src="images/whiteboard.jpg" alt="" width="700">
+<details>
+    <summary>Image Source</summary>
+    <p>Credit: https://www.describedefine.com/work/live-note-taking/</p>
+</details>
+
+<h3>Video from Meeting:</h3>
+<video src="images\video.mp4" width="400"></video>
+<h3>Audio from Meeting</h3>
+<audio controls>
+    <source src="images\Audio.mp3" type="audio/mpeg">
+</audio>
+
+<br>
+
+<h2>Request a new Meeting</h2>
+<form>
+    <fieldset>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <label for="Topic">Meeting Topics:</label><br>
+    <textarea name="Test" id="Topic" cols="30" rows="10"></textarea>
+    <br>
+    <label for="browser">Meeting Type:</label>
+    <input list="meetingtypes" name="meetingtype" id="meetingtype">
+    <datalist id="meetingtypes">
+        <option value="Standup"></option>
+        <option value="Full Hour Meeting"></option>
+        <option value="Quick 30 min meeting"></option>
+    </datalist>
+    <label for="projects">Which project is this about?:</label>
+
+<select name="project" id="projects">
+  <option value="Project 1">Project 1</option>
+  <option value="Project 2">Project 2</option>
+  <option value="Project 3">Project 3</option>
+  <option value="Project 4">Project 4</option>
+</select>
+<br>
+<button>Submit</button>
+
+</fieldset>
+  </form>
+<footer>
+    Created by Sameer Jain
+</footer>
+</main>
+
+</html>

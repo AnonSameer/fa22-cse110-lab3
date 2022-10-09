@@ -3,6 +3,8 @@
 
 <head>
 
+    <title>Meeting Minutes Tracker:</title>
+    <link rel="icon" href="images/videoconference.png">
     <meta charset="UTF-8">
     <meta name="description" content="Meeting Notes">
     <meta name="keywords" content="HTML">
@@ -22,20 +24,18 @@
             <hr>
 
         </nav>
-        <title>Meeting Minutes Tracker:</title>
-        <link rel="icon" href="images/videoconference.png">
-        <section>
-            <h2><em>Team 17's First Brainstorm</em></h2>
-            <h2>10/8/2022</h2>
-            <h3>Attendance List:</h3>
-            <li>Sameer Jain</li>
-            <li>Aiden Jee</li>
-            <li>Alex Wang</li>
-            <li>Alvin Low</li>
-            <li>Katherine Wong</li>
-            <li>Raon Choi</li>
-            <li>Yiyang Chen</li>
-            <li>Yuheng Ge</li>
+
+        <h2><em>Team 17's First Brainstorm</em></h2>
+        <h2>10/8/2022</h2>
+        <h3>Attendance List:</h3>
+        <li>Sameer Jain</li>
+        <li>Aiden Jee</li>
+        <li>Alex Wang</li>
+        <li>Alvin Low</li>
+        <li>Katherine Wong</li>
+        <li>Raon Choi</li>
+        <li>Yiyang Chen</li>
+        <li>Yuheng Ge</li>
 </head>
 
 <body>
@@ -55,7 +55,6 @@
         </ul>
         <h3>New business:</h3>
         <p>Discuss plan to launch by <b>Q2</b>.</p>
-        </section>
     </span>
 </body>
 
@@ -75,37 +74,41 @@
 
 <br>
 
-<h2>Request a new Meeting</h2>
-<form>
-    <fieldset>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname">
-    <br>
-    <label for="Topic">Meeting Topics:</label><br>
-    <textarea name="Test" id="Topic" cols="30" rows="10"></textarea>
-    <br>
-    <label for="browser">Meeting Type:</label>
-    <input list="meetingtypes" name="meetingtype" id="meetingtype">
-    <datalist id="meetingtypes">
-        <option value="Standup"></option>
-        <option value="Full Hour Meeting"></option>
-        <option value="Quick 30 min meeting"></option>
-    </datalist>
-    <label for="projects">Which project is this about?:</label>
+<section>
 
-<select name="project" id="projects">
-  <option value="Project 1">Project 1</option>
-  <option value="Project 2">Project 2</option>
-  <option value="Project 3">Project 3</option>
-  <option value="Project 4">Project 4</option>
-</select>
-<br>
-<button>Submit</button>
+
+    <h2>Request a new Meeting</h2>
+    <form>
+        <fieldset>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label for="Topic">Meeting Topics:</label><br>
+            <textarea name="Test" id="Topic" cols="30" rows="10"></textarea>
+            <br>
+            <label for="browser">Meeting Type:</label>
+            <input list="meetingtypes" name="meetingtype" id="meetingtype">
+            <datalist id="meetingtypes">
+                <option value="Standup"></option>
+                <option value="Full Hour Meeting"></option>
+                <option value="Quick 30 min meeting"></option>
+            </datalist>
+            <label for="projects">Which project is this about?:</label>
+
+            <select name="project" id="projects">
+                <option value="Project 1">Project 1</option>
+                <option value="Project 2">Project 2</option>
+                <option value="Project 3">Project 3</option>
+                <option value="Project 4">Project 4</option>
+            </select>
+            <br>
+            <button>Submit</button>
+</section>
 
 </fieldset>
-  </form>
+</form>
 <footer>
     Created by Sameer Jain
 </footer>

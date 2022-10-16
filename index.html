@@ -5,6 +5,7 @@
 
     <title>Meeting Minutes Tracker:</title>
     <link rel="icon" href="images/videoconference.png">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="description" content="Meeting Notes">
     <meta name="keywords" content="HTML">
@@ -19,6 +20,7 @@
             <h1><i>Minutes Tracker </i></h1>
         </header>
 
+        <div class="flex-container">
         <nav>
             <a href="#">Meeting 1</a>
             <a href="#">Meeting 2</a>
@@ -27,12 +29,15 @@
             <hr>
 
         </nav>
+
+
+    </div>
     </main>
 
 
 
 
-    <div>
+    <div class="attendance">
         <h2><em>Team 17's First Brainstorm</em></h2>
         <h2>10/8/2022</h2>
         <h3>Attendance List:</h3>
@@ -51,40 +56,54 @@
 
 
 
-    <h3>Meeting Agenda:</h3>
-    <ol>
-        <li>Brainstorm new features for app</li>
-        <li>Address buisness needs</li>
+    <div class="agenda">
+        <h3>Meeting Agenda:</h3>
+        <ol>
+            <li>Brainstorm new features for app</li>
+            <li>Address buisness needs</li>
 
-    </ol>
-    <h3>Continue from last meeting: </h3>
-    <ul>
-        <li>Discuss fixing bug in ticket <strong>#882</strong></li>
-    </ul>
-    <h3>New business:</h3>
-    <p>Discuss plan to launch by <b>Q2</b>.</p>
+        </ol>
+        <h3>Continue from last meeting: </h3>
+        <ul>
+            <li>Discuss fixing bug in ticket <strong>#882</strong></li>
+        </ul>
+        <h3>New business:</h3>
+        <p>Discuss plan to launch by <b>Q2</b>.</p>
+
+    </div>
 
 
+    <div class="grid-container">
+        <div class="grid-item">
+        <h3>Noes from Meeting:</h3>
+        
+            <span>
+                <img src="images/whiteboard.jpg" alt="" width="700">
+            </span>
 
-    <h3>Noes from Meeting:</h3>
-    <span>
-        <img src="images/whiteboard.jpg" alt="" width="700">
-    </span>
-    <details>
-        <summary>Image Source</summary>
-        <p>Credit: https://www.describedefine.com/work/live-note-taking/</p>
-    </details>
+            <details>
+                <summary>Image Source</summary>
+                <p>Credit: https://www.describedefine.com/work/live-note-taking/</p>
+            </details>
+        </div>
 
-    <h3>Video from Meeting:</h3>
-    <video src="images/video.mp4" width="400"></video>
-    <h3>Audio from Meeting</h3>
-    <audio controls>
-        <source src="images/Audio.mp3" type="audio/mpeg">
-    </audio>
+        <div class="grid-item">
+            <h3>Video from Meeting:</h3>
+            <video controls src="images/video.mp4" width="400"></video>
+        </div>
+
+        <div class="grid-item">
+            <h3>Audio from Meeting</h3>
+            <audio controls>
+                <source src="images/Audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+    </div>
 
     <br>
 
-    <section>
+    <section class="newMeeting">
 
 
         <h2>Request a new Meeting</h2>

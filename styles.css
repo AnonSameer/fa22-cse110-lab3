@@ -1,0 +1,152 @@
+.attendance {
+    margin: auto;
+    width: 50%;
+    border-style: dotted;
+    border-color: blue;
+    border-width:5px;
+    border-radius:1in;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.newMeeting {
+    color: black;
+    text-decoration: solid;
+    text-align: center;
+}
+.newMeeting h2 {
+    width: 300px;
+    border: 5px solid purple;
+    padding: 15px;
+    margin:  auto;
+    color: red;
+    text-decoration:underline;
+    
+}
+
+input{
+    width: auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    display: block;
+}
+
+fieldset {
+    background-color: #CCC;
+    display:inline-block
+}
+button {
+    color: white;
+    padding: 10px;
+    font-size: large;
+    background-color: black;
+}
+
+button:hover {
+    background-color: grey;
+}
+button:active {
+    background-color: green;
+}
+nav {
+    text-align: center;
+    position: sticky;
+    font-size: larger;
+    color: white;
+
+}
+
+body h1 {
+    text-align: center;
+}
+body {
+    text-align: center;
+    background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+li, ol {
+    list-style-position: inside;
+}
+
+.agenda {
+    margin: auto;
+    width: 50%;
+    border-style: dotted;
+    border-color: white;
+    border-width:5px;
+    border-radius:1in;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #1e80d0;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(108, 65, 65, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .grid-item audio {
+    padding-top: 25%;
+  }
+
+  @font-face { /* imports page's font */
+    font-family: "myFont";
+    src: url("Inconsolata-VariableFont_wdth,wght.ttf");
+  }
+  * { /* sets all tags in webpage to use Lato as font */
+    font-family: "myFont";
+  }
+
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+  main {
+    color: white;
+    font-size: 20px;
+  }
+
+  .flex-container {
+    background-color: white;
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    overflow-y: auto;
+  }
+
+
+
+a[href^="#"] {
+    background-color: gold;
+  }
+
+
+div > h2 {
+    color: red;
+}
+
+h3 ~ img {
+    color: bisque;
+  }
+
+div.container {
+    font-weight: bold;
+}
+

@@ -109,7 +109,7 @@ li, ol {
     font-family: "myFont";
     src: url("Inconsolata-VariableFont_wdth,wght.ttf");
   }
-  * { /* sets all tags in webpage to use Lato as font */
+  * { /* sets all tags in webpage to use Inconsolata as font */
     font-family: "myFont";
   }
 
@@ -121,6 +121,10 @@ li, ol {
 
   main {
     color: white;
+    font-size: 20px;
+  }
+
+  main+div {
     font-size: 20px;
   }
 
